@@ -1,0 +1,55 @@
+{
+  "request": {
+    "headers": {
+      "host": "parabank.parasoft.com",
+      "connection": "keep-alive",
+      "content-length": "339",
+      "cache-control": "max-age=0",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "content-type": "application/x-www-form-urlencoded",
+      "cookie": "JSESSIONID=FE7DE8FDF759280AD361D700BC3226E4; __cypress.initial=true",
+      "origin": "https://parabank.parasoft.com",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-dest": "iframe",
+      "referer": "https://parabank.parasoft.com/parabank/register.htm",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9"
+    },
+    "url": "https://parabank.parasoft.com/parabank/register.htm",
+    "method": "POST",
+    "httpVersion": "1.1",
+    "resourceType": "other",
+    "query": {},
+    "body": "customer.firstName=Jane&customer.lastName=Lee&customer.address.street=3016+Chestnut+Street&customer.address.city=Polk+City&customer.address.state=Florida&customer.address.zipCode=33868&customer.phoneNumber=727-415-4762&customer.ssn=292-15-4452&customer.username=usernamezrehub21&customer.password=passzrehub21&repeatedPassword=passzrehub21",
+    "responseTimeout": 30000,
+    "alias": "invalidRegisterRequest"
+  },
+  "response": {
+    "headers": {
+      "date": "Sun, 13 Oct 2024 00:05:10 GMT",
+      "content-type": "text/html;charset=ISO-8859-1",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "cache-control": "no-store",
+      "content-language": "en-US",
+      "cf-cache-status": "DYNAMIC",
+      "strict-transport-security": "max-age=0; includeSubDomains; preload",
+      "x-content-type-options": "nosniff",
+      "server": "cloudflare",
+      "cf-ray": "8d1b1390fb2973c3-MRS",
+      "content-encoding": "gzip"
+    },
+    "url": "https://parabank.parasoft.com/parabank/register.htm",
+    "method": null,
+    "httpVersion": "1.1",
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "body": "\n\r\n\n\n<!-- <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n -->\n<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\t\t<title>ParaBank | Register for Free Online Account Access</title>\n\t\t<link href=\"template.css\" rel=\"stylesheet\"\n\t\t\ttype=\"text/css\" />\n\t\t<link href=\"style.css\" rel=\"stylesheet\"\n\t\t\ttype=\"text/css\" />\n\t\t<script src=\"webjars/jquery/3.7.1/jquery.min.js\"></script>\n\t</head>\n\n\t<body\n\t\t\n\t    onload=\"document.login.username.focus();\"\n\t  >\n\t\t<div id=\"mainPanel\">\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\r\n\r\n\r\n\r\n<div id=\"topPanel\">\r\n  <a href=\"admin.htm\"><img src=\"images/clear.gif\" width=\"56\" height=\"42\" border=\"0\" class=\"admin\"/></a>\r\n  <a href=\"index.htm\"><img src=\"images/logo.gif\" alt=\"ParaBank\" width=\"136\" height=\"31\" border=\"0\" class=\"logo\" title=\"ParaBank\"/></a>\r\n  <p class=\"caption\">Experience the difference</p>\r\n</div>\r\n<div id=\"headerPanel\" style=\"background: url(images/header-main.jpg) 0 0 no-repeat;\">\r\n  \r\n\r\n\r\n<ul class=\"leftmenu\">\r\n  <li class=\"Solutions\">Solutions</li>\r\n  <li><a href=\"about.htm\">About Us</a></li>\r\n  <li><a href=\"services.htm\">Services</a></li>\r\n  <li><a href=\"http://www.parasoft.com/jsp/products.jsp\">Products</a></li>\r\n  <li><a href=\"http://www.parasoft.com/jsp/pr/contacts.jsp\">Locations</a></li>\r\n  <li><a href=\"admin.htm\">Admin Page</a></li>\r\n  \r\n</ul>\r\n  \r\n\r\n\r\n<ul class=\"button\">\r\n  <li class=\"home\"><a href=\"index.htm\">home</a></li>\r\n  <li class=\"aboutus\"><a href=\"about.htm\">about</a></li>\r\n  <li class=\"contact\"><a href=\"contact.htm\">contact</a></li>\r\n</ul>\r\n</div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t<div id=\"bodyPanel\">\n\t\t\t\t<div id=\"leftPanel\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\r\n\r\n\r\n<h2>Customer Login</h2>\r\n<div id=\"loginPanel\">\r\n  <form name=\"login\" action=\"login.htm\" method=\"POST\">\r\n    \r\n    <p><b>Username</b></p>\r\n    <div class=\"login\"><input type=\"text\" class=\"input\" name=\"username\"/></div>\r\n    <p><b>Password</b></p>\r\n    <div class=\"login\"><input type=\"password\" class=\"input\" name=\"password\"/></div>\r\n    <div class=\"login\"><input type=\"submit\" class=\"button\" value=\"Log In\"/></div>\r\n  </form>\r\n  <p><a href=\"lookup.htm\">Forgot login info?</a></p>\r\n  <p><a href=\"register.htm\">Register</a></p>\r\n</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div id=\"rightPanel\">\n\t\t\t\t\t\r\n\r\n\r\n\r\n<h1 class=\"title\">Signing up is easy!</h1>\r\n\r\n<p>If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.</p>\r\n\r\n<form id=\"customerForm\" action=\"register.htm\" method=\"post\">\r\n  <table class=\"form2\" >\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>First Name:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.firstName\" name=\"customer.firstName\" class=\"input\" type=\"text\" value=\"Jane\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Last Name:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.lastName\" name=\"customer.lastName\" class=\"input\" type=\"text\" value=\"Lee\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Address:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.address.street\" name=\"customer.address.street\" class=\"input\" type=\"text\" value=\"3016 Chestnut Street\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>City:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.address.city\" name=\"customer.address.city\" class=\"input\" type=\"text\" value=\"Polk City\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>State:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.address.state\" name=\"customer.address.state\" class=\"input\" type=\"text\" value=\"Florida\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Zip Code:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.address.zipCode\" name=\"customer.address.zipCode\" class=\"input\" type=\"text\" value=\"33868\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Phone #:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.phoneNumber\" name=\"customer.phoneNumber\" class=\"input\" type=\"text\" value=\"727-415-4762\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>SSN:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.ssn\" name=\"customer.ssn\" class=\"input\" type=\"text\" value=\"292-15-4452\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr><td>&nbsp;</td></tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Username:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.username\" name=\"customer.username\" class=\"input\" type=\"text\" value=\"usernamezrehub21\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        <span id=\"customer.username.errors\" class=\"error\">This username already exists.</span>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Password:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"customer.password\" name=\"customer.password\" class=\"input\" type=\"password\" value=\"\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"right\" width=\"30%\"><b>Confirm:</b></td>\r\n      <td width=\"20%\">\r\n        <input id=\"repeatedPassword\" name=\"repeatedPassword\" class=\"input\" type=\"password\" value=\"\"/>\r\n      </td>\r\n      <td width=\"50%\">\r\n        \r\n      </td>\r\n    </tr>    \r\n    <tr>\r\n      <td>&nbsp;</td>\r\n      <td colspan=\"2\"><input type=\"submit\" class=\"button\" value=\"Register\"></td>\r\n    </tr>\r\n  </table>\r\n  <br>\r\n</form>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\r\n\r\n\r\n<div id=\"footermainPanel\">\r\n  <div id=\"footerPanel\">\r\n    <ul>\r\n      <li><a href=\"index.htm\">Home</a>| </li>\r\n      <li><a href=\"about.htm\">About Us</a>| </li>\r\n      <li><a href=\"services.htm\">Services</a>| </li>\r\n      <li><a href=\"http://www.parasoft.com/jsp/products.jsp\">Products</a>| </li>\r\n      <li><a href=\"http://www.parasoft.com/jsp/pr/contacts.jsp\">Locations</a>| </li>\r\n      <li><a href=\"http://forums.parasoft.com/\">Forum</a>| </li>\r\n      <li><a href=\"sitemap.htm\">Site Map</a>| </li>\r\n      <li><a href=\"contact.htm\">Contact Us</a></li>\r\n    </ul>\r\n    <p class=\"copyright\">&copy; Parasoft. All rights reserved.</p>\r\n    <ul class=\"visit\">\r\n      <li>Visit us at:</li>\r\n      <li><a href=\"http://www.parasoft.com/\" target=\"_blank\">www.parasoft.com</a></li>\r\n    </ul>\r\n  </div>\r\n</div>\n\t</body>\n</html>\n"
+  }
+}
